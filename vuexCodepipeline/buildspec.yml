@@ -8,6 +8,7 @@ phases:
       - npm i
   pre_build:
     commands:
+      - cd vuexCodepipeline
       - npm i
   build:
     commands:
